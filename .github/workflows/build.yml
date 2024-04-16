@@ -22,11 +22,11 @@ jobs:
           arch: arm64
           aosp-gcc: true
           aosp-clang: true
-          other-clang-url: https://android.googlesource.com/platform/prebuilts/clang/host/linux-x86/+/refs/heads/main/clang-r522817
+          # other-clang-url: https://android.googlesource.com/platform/prebuilts/clang/host/linux-x86/+/refs/heads/main/clang-r522817
           ksu: true
           ksu-version: main
           android-version: 14
-          aosp-clang-version: r522817
-          python-27: true
+          aosp-clang-version: clang-stable
+          python-27: false
           disable-lto: false
           anykernel3: true
