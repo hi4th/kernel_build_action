@@ -23,7 +23,7 @@ jobs:
           aosp-gcc: true
           aosp-clang: true
           # other-clang-url: https://android.googlesource.com/platform/prebuilts/clang/host/linux-x86/+/refs/heads/main/clang-r522817
-          ksu: true
+          ksu: false
           ksu-version: main
           android-version: 14
           aosp-clang-version: stable
